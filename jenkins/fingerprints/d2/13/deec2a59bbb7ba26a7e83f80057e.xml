@@ -1,20 +1,20 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <fingerprint>
-  <timestamp>2022-04-22 08:39:33.63 UTC</timestamp>
+  <timestamp>2022-04-22 08:52:32.483 UTC</timestamp>
   <original>
     <name>artifactory/com.efsavage:hello-world-war</name>
-    <number>3</number>
+    <number>5</number>
   </original>
-  <md5sum>83f3762f376e074a6d2319da6bf2d75b</md5sum>
-  <fileName>com.efsavage:hello-world-war:pom.xml</fileName>
+  <md5sum>d213deec2a59bbb7ba26a7e83f80057e</md5sum>
+  <fileName>com.efsavage:hello-world-war-1.0.0.war</fileName>
   <usages>
     <entry>
       <string>artifactory</string>
-      <ranges>3-5</ranges>
+      <ranges>5</ranges>
     </entry>
     <entry>
       <string>artifactory/com.efsavage:hello-world-war</string>
-      <ranges>3-5</ranges>
+      <ranges>5</ranges>
     </entry>
   </usages>
   <facets/>
