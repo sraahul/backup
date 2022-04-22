@@ -1,0 +1,90 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.18">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>srahuls</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1087.1089.v2f1b_9a_b_040e4">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.0">
+              <sha1>b5162c7f4c1c202d369538dc7a6ecba270ebac77</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>7</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/sraahul/hello-world-war.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <org.jfrog.hudson.BuildInfoResultAction plugin="artifactory@3.16.1">
+      <publishedBuildsDetails class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jfrog.hudson.PublishedBuildDetails>
+          <artifactoryUrl>http://3.94.158.87:8081/artifactory</artifactoryUrl>
+          <buildNumber>7</buildNumber>
+          <buildName>artifactory</buildName>
+          <startedTimeStamp></startedTimeStamp>
+          <platformUrl></platformUrl>
+          <project></project>
+        </org.jfrog.hudson.PublishedBuildDetails>
+      </publishedBuildsDetails>
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+    </org.jfrog.hudson.BuildInfoResultAction>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>com.efsavage:hello-world-war-1.0.0.war</string>
+          <string>b5fa4b163593c4f76f81edbb63e13ffd</string>
+        </entry>
+        <entry>
+          <string>com.efsavage:hello-world-war:pom.xml</string>
+          <string>83f3762f376e074a6d2319da6bf2d75b</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>34</queueId>
+  <timestamp>1650617951967</timestamp>
+  <startTime>1650617951996</startTime>
+  <result>SUCCESS</result>
+  <duration>12919</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>slave1</builtOn>
+  <workspace>/home/slave1/jenkins/workspace/artifactory</workspace>
+  <hudsonVersion>2.332.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.11.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+  <mavenVersionUsed>3.8.5</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>
