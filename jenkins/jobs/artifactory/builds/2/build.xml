@@ -39,11 +39,16 @@
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
     <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
   </actions>
   <queueId>29</queueId>
   <timestamp>1650616675215</timestamp>
   <startTime>1650616675225</startTime>
-  <duration>0</duration>
+  <result>FAILURE</result>
+  <duration>39646</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn>slave1</builtOn>
@@ -53,5 +58,8 @@
     <authorOrCommitter>false</authorOrCommitter>
     <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
   </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
   <mavenVersionUsed>3.8.5</mavenVersionUsed>
 </hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@3.18">
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>Hello World Web Application Repository</displayName>
+  <version>1.0.0</version>
+  <packaging>war</packaging>
+  <relativePath></relativePath>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>2.1.1</version>
+      <plugin>true</plugin>
+    </dependency>
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>jetty-maven-plugin</artifactId>
+      <version>8.1.5.v20120716</version>
+      <plugin>true</plugin>
+    </dependency>
+  </dependencies>
+  <children/>
+</maven2>

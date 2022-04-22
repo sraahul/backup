@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.18">
+  <actions>
+    <org.jfrog.hudson.MavenDependenciesRecord plugin="artifactory@3.16.1">
+      <build reference="../../.."/>
+      <dependencies/>
+    </org.jfrog.hudson.MavenDependenciesRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.efsavage</groupId>
+        <artifactId>hello-world-war</artifactId>
+        <version>1.0.0</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>hello-world-war-1.0.0.pom</canonicalName>
+        <md5sum>83f3762f376e074a6d2319da6bf2d75b</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <org.jfrog.hudson.MavenDependenciesRecord plugin="artifactory@3.16.1">
+      <build reference="../../.."/>
+      <dependencies/>
+    </org.jfrog.hudson.MavenDependenciesRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1650616701347</timestamp>
+  <startTime>1650616713132</startTime>
+  <result>FAILURE</result>
+  <duration>1212</duration>
+  <keepLog>false</keepLog>
+  <builtOn>slave1</builtOn>
+  <workspace>/home/slave1/jenkins/workspace/artifactory</workspace>
+</hudson.maven.MavenBuild>
