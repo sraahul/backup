@@ -1,0 +1,24 @@
+Started by user [8mha:////4OOIckTNzRlZGH3SrJjUyYmcU+ST56J1pDPIHmdiKN+7AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZe/dLi1CL94qLEjNKcYgCWzWTswgAAAA==[0mrahul
+Running as SYSTEM
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.5/apache-maven-3.8.5-bin.zip to /home/slave1/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven on slave1
+Building remotely on [8mha:////4LaQ+lWGa1e2QiukD88IQuPdFp6hdGWs0OVX6RAfswdXAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (tomcat) in workspace /home/slave1/jenkins/workspace/artifactory
+The recommended git tool is: NONE
+using credential 184fbd02-043a-4308-9cf7-cc536bb5dc30
+Cloning the remote Git repository
+Cloning repository https://github.com/sraahul/hello-world-war.git
+ > git init /home/slave1/jenkins/workspace/artifactory # timeout=10
+Fetching upstream changes from https://github.com/sraahul/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/sraahul/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/sraahul/hello-world-war.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision b5162c7f4c1c202d369538dc7a6ecba270ebac77 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b5162c7f4c1c202d369538dc7a6ecba270ebac77 # timeout=10
+Commit message: "Update index.jsp"
+First time build. Skipping changelog.
+Parsing POMs
