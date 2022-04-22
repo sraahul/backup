@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-04-22 08:39:33.47 UTC</timestamp>
+  <original>
+    <name>artifactory/com.efsavage:hello-world-war</name>
+    <number>3</number>
+  </original>
+  <md5sum>2c393e795f16575a431a575f514fa4e9</md5sum>
+  <fileName>com.efsavage:hello-world-war-1.0.0.war</fileName>
+  <usages>
+    <entry>
+      <string>artifactory</string>
+      <ranges>3</ranges>
+    </entry>
+    <entry>
+      <string>artifactory/com.efsavage:hello-world-war</string>
+      <ranges>3</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
