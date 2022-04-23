@@ -174,3 +174,25 @@ Offering webhooks to Project Build Discarder
 Processing artifactory/com.efsavage:hello-world-war
 Offering artifactory/com.efsavage:hello-world-war to Project Build Discarder
 Finished at Sat Apr 23 19:06:41 UTC 2022. 51ms
+Started at Sat Apr 23 20:06:41 UTC 2022
+Processing artifactory
+Offering artifactory to Project Build Discarder
+Processing firstjob
+Offering firstjob to Project Build Discarder
+Processing installjenkins
+Offering installjenkins to Project Build Discarder
+Processing maven
+Offering maven to Project Build Discarder
+Processing myfirstpipe
+Offering myfirstpipe to Project Build Discarder
+Processing pipeline2
+Offering pipeline2 to Project Build Discarder
+Processing scriptedpipeline
+Offering scriptedpipeline to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Processing webhooks
+Offering webhooks to Project Build Discarder
+Processing artifactory/com.efsavage:hello-world-war
+Offering artifactory/com.efsavage:hello-world-war to Project Build Discarder
+Finished at Sat Apr 23 20:06:41 UTC 2022. 10ms
