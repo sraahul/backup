@@ -1,0 +1,125 @@
+Started by user [8mha:////4OOIckTNzRlZGH3SrJjUyYmcU+ST56J1pDPIHmdiKN+7AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZe/dLi1CL94qLEjNKcYgCWzWTswgAAAA==[0mrahul
+Obtained Jenkinsfile from git https://github.com/sraahul/hello-world-war
+[8mha:////4OLDvSiAW9EYrabIYTxbOqu+kXntp5nkwtipjrChjuGbAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4AHthg7CqQgYWoLG3AWI9zQaFk29M/KMT6wHYSz6P/OAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HxnVBKZ0T91ur/FUC9yCV2VrXhaHL47H7heUTkD7EvPAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/jenkins-docker
+[8mha:////4HyupW/R/jg3IszPKh4RVkhRT8dsvlN2hn6WlraBHTrcAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4G7ROq4Dt8n8P62kSu7sKgyGQIPIz22l3WPQNY8T/RTyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4K3cis0I/P/Xv6jxoxWq88yg3nmgyAM/fAUPwtOqUypPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4GD4+jFTcK8MYnS4d0ERsaewo3N8Gu//wOF6yz0pgvWGAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential github
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/jenkins-docker/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sraahul/hello-world-war # timeout=10
+Fetching upstream changes from https://github.com/sraahul/hello-world-war
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/sraahul/hello-world-war +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 61b2cd0f338fbbb841b9c4ac3138bcb60a0bcafc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 61b2cd0f338fbbb841b9c4ac3138bcb60a0bcafc # timeout=10
+Commit message: "Update Jenkinsfile"
+ > git rev-list --no-walk 2f8ba4ae90dee1834fb5dd2d52bbb24e5a286e9e # timeout=10
+[8mha:////4NQOWsy84MlT8YQY9bioZ3NdVZHa1DPDPE6776Q0HFsgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4O38Na7O03/920AXT6/XcXviXhdpdBn8lIz/x30VyIrQAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4O5vE4adhaNPKyYh9KmhawPHS/JT/6+ZMpFsXWeOXGn3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4DLVqBGaTsLeHv4gMAuRfKxluTcM3cOwfURriMOZiYOnAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4BNVl4MeAwjQW9wgoXZXukVsGKu8L3AdAX/S11jSlyDkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4Iu+1dry8Fn1o0NMgBc3DSO4MtoQhErI2DoPcw1fZY9SAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (check out)
+[8mha:////4LEPsB9BMeT1Z6MP1ZPR82r+8aPJtttyvU+HfP83aiXnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ rm -rf hello-world-war
+[8mha:////4MSYh7kjnjl6hWNIpcdFjm/bg6oA8jGdqUYDxnZ6vCEVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] sh
++ git clone https://github.com/sraahul/hello-world-war
+Cloning into 'hello-world-war'...
+[8mha:////4HSLtmpWtfKEYs538H44oIYEo3WqjxFFiKoSxtmufzlHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4BCUcYx2XrzC5GmSUFkHnBmwiBkXQMA2JplDqkYKAdPdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4CBxbAUTJyya79fUoroUicNvMl+WPTPDo91LYwTKQRXnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] stage
+[8mha:////4KKZEGFEoKx1dz8NVUHQbonRDXHpKpA+d6F5J83AuKuRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (build)
+[8mha:////4MfhAY3YboXpUeBFKJjIBrXumIfnxgIGbARTkQfcWAp9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ pwd
+/var/lib/jenkins/workspace/jenkins-docker
+[8mha:////4GDIRsXLE3EyHv59hxaDyEyUQJ3BLK1l8g7JYcnzIe8kAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] sh
++ ls
+Dockerfile
+Jenkinsfile
+README.md
+dist
+hello-world-war
+pom.xml
+src
+[8mha:////4NnuLlErGmnJR5cDMAjJEYc25D9Q8j2060UcUrlnbSEoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNknKPeHXHXtP5vywgS+AAAA[0m[Pipeline] sh
++ cd hello-world-war
+[8mha:////4LIWJB/uJlLLfkj0odYiAS/TGp+bqmhytN/6Zzp+0IDrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKLeHXLv98AHaw9kdvgAAAA==[0m[Pipeline] sh
++ sudo docker build -t sraahul/file-1-0 .
+Sending build context to Docker daemon  259.1kB
+Step 1/8 : FROM maven:3.8.2-openjdk-8 as mavenbuild
+3.8.2-openjdk-8: Pulling from library/maven
+df5590a8898b: Pulling fs layer
+705bb4cb554e: Pulling fs layer
+519df5fceacd: Pulling fs layer
+ccc287cbeddc: Pulling fs layer
+39a2961e8351: Pulling fs layer
+a12df774715e: Pulling fs layer
+08f28107b8b3: Pulling fs layer
+fd9e28083df0: Pulling fs layer
+18282f3f5e4a: Pulling fs layer
+dc57f652f314: Pulling fs layer
+ccc287cbeddc: Waiting
+39a2961e8351: Waiting
+a12df774715e: Waiting
+08f28107b8b3: Waiting
+fd9e28083df0: Waiting
+18282f3f5e4a: Waiting
+dc57f652f314: Waiting
+705bb4cb554e: Verifying Checksum
+705bb4cb554e: Download complete
+519df5fceacd: Verifying Checksum
+519df5fceacd: Download complete
+39a2961e8351: Verifying Checksum
+39a2961e8351: Download complete
+a12df774715e: Verifying Checksum
+a12df774715e: Download complete
+ccc287cbeddc: Verifying Checksum
+ccc287cbeddc: Download complete
+df5590a8898b: Verifying Checksum
+df5590a8898b: Download complete
+18282f3f5e4a: Verifying Checksum
+18282f3f5e4a: Download complete
+fd9e28083df0: Verifying Checksum
+fd9e28083df0: Download complete
+dc57f652f314: Verifying Checksum
+dc57f652f314: Download complete
+08f28107b8b3: Verifying Checksum
+08f28107b8b3: Download complete
+df5590a8898b: Pull complete
+705bb4cb554e: Pull complete
+519df5fceacd: Pull complete
+ccc287cbeddc: Pull complete
+39a2961e8351: Pull complete
+a12df774715e: Pull complete
+08f28107b8b3: Pull complete
+fd9e28083df0: Pull complete
+18282f3f5e4a: Pull complete
+dc57f652f314: Pull complete
+Digest: sha256:2deb2dc83de897b6391b5da02851879f36f338ceea5e5a0bf80b40516502cdf6
+Status: Downloaded newer image for maven:3.8.2-openjdk-8
+ ---> 722b9d50b08a
+Step 2/8 : ARG TEST=/var/lib/
+ ---> Running in 2d2274cf4c3c
+Removing intermediate container 2d2274cf4c3c
+ ---> 607e4374743d
+Step 3/8 : WORKDIR ${TEST}
+ ---> Running in 295cbc4b1c87
+Removing intermediate container 295cbc4b1c87
+ ---> 1af479912176
+Step 4/8 : COPY . .
+ ---> 1285a5603fa5
+Step 5/8 : RUN mvn clean package
+ ---> Running in c2b3a3a487c7
+Resuming build at Thu May 12 07:09:22 UTC 2022 after Jenkins restart
+Waiting to resume part of jenkins-docker #2: Waiting for next available executor on ‘[8mha:////4HxnVBKZ0T91ur/FUC9yCV2VrXhaHL47H7heUTkD7EvPAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins’
+Ready to run at Thu May 12 07:09:27 UTC 2022

@@ -1,0 +1,66 @@
++ sudo docker build -t sraahul/file-1-0 .
+Sending build context to Docker daemon  259.1kB
+Step 1/8 : FROM maven:3.8.2-openjdk-8 as mavenbuild
+3.8.2-openjdk-8: Pulling from library/maven
+df5590a8898b: Pulling fs layer
+705bb4cb554e: Pulling fs layer
+519df5fceacd: Pulling fs layer
+ccc287cbeddc: Pulling fs layer
+39a2961e8351: Pulling fs layer
+a12df774715e: Pulling fs layer
+08f28107b8b3: Pulling fs layer
+fd9e28083df0: Pulling fs layer
+18282f3f5e4a: Pulling fs layer
+dc57f652f314: Pulling fs layer
+ccc287cbeddc: Waiting
+39a2961e8351: Waiting
+a12df774715e: Waiting
+08f28107b8b3: Waiting
+fd9e28083df0: Waiting
+18282f3f5e4a: Waiting
+dc57f652f314: Waiting
+705bb4cb554e: Verifying Checksum
+705bb4cb554e: Download complete
+519df5fceacd: Verifying Checksum
+519df5fceacd: Download complete
+39a2961e8351: Verifying Checksum
+39a2961e8351: Download complete
+a12df774715e: Verifying Checksum
+a12df774715e: Download complete
+ccc287cbeddc: Verifying Checksum
+ccc287cbeddc: Download complete
+df5590a8898b: Verifying Checksum
+df5590a8898b: Download complete
+18282f3f5e4a: Verifying Checksum
+18282f3f5e4a: Download complete
+fd9e28083df0: Verifying Checksum
+fd9e28083df0: Download complete
+dc57f652f314: Verifying Checksum
+dc57f652f314: Download complete
+08f28107b8b3: Verifying Checksum
+08f28107b8b3: Download complete
+df5590a8898b: Pull complete
+705bb4cb554e: Pull complete
+519df5fceacd: Pull complete
+ccc287cbeddc: Pull complete
+39a2961e8351: Pull complete
+a12df774715e: Pull complete
+08f28107b8b3: Pull complete
+fd9e28083df0: Pull complete
+18282f3f5e4a: Pull complete
+dc57f652f314: Pull complete
+Digest: sha256:2deb2dc83de897b6391b5da02851879f36f338ceea5e5a0bf80b40516502cdf6
+Status: Downloaded newer image for maven:3.8.2-openjdk-8
+ ---> 722b9d50b08a
+Step 2/8 : ARG TEST=/var/lib/
+ ---> Running in 2d2274cf4c3c
+Removing intermediate container 2d2274cf4c3c
+ ---> 607e4374743d
+Step 3/8 : WORKDIR ${TEST}
+ ---> Running in 295cbc4b1c87
+Removing intermediate container 295cbc4b1c87
+ ---> 1af479912176
+Step 4/8 : COPY . .
+ ---> 1285a5603fa5
+Step 5/8 : RUN mvn clean package
+ ---> Running in c2b3a3a487c7

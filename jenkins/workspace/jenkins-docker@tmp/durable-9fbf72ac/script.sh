@@ -1,0 +1,1 @@
+sudo docker build -t sraahul/file-1-0 .
